@@ -1,7 +1,7 @@
 body {
   margin: 0;
   font-family: Arial, sans-serif;
-  background-color: #f3f4f6; /* Light background for readability */
+  background-color: #f3f4f6;
 }
 
 .chat-container {
@@ -17,7 +17,7 @@ body {
 }
 
 .chat-header {
-  background: linear-gradient(135deg, #f9d423, #ff4e50); /* Solar theme */
+  background: linear-gradient(135deg, #f9d423, #ff4e50);
   color: white;
   padding: 10px 15px;
   text-align: center;
@@ -25,11 +25,15 @@ body {
   font-weight: bold;
 }
 
+.chat-header p {
+  font-size: 0.5em;
+}
+
 .chat-messages {
   flex: 1;
   overflow-y: auto;
   padding: 15px;
-  background: #f7f9fb; /* Light solar theme */
+  background: #f7f9fb;
 }
 
 .chat-messages .message {
@@ -54,13 +58,13 @@ body {
 }
 
 .chat-messages .message.bot .bubble {
-  background: #f0e68c; /* Yellow for solar bot */
+  background: #f0e68c;
   color: #333;
   align-self: flex-start;
 }
 
 .chat-messages .message.user .bubble {
-  background: #4caf50; /* Green for user */
+  background: #4caf50;
   color: white;
 }
 
@@ -84,7 +88,7 @@ body {
   padding: 10px 15px;
   font-size: 1em;
   color: white;
-  background: #ff9800; /* Orange solar button */
+  background: #ff9800;
   border: none;
   border-radius: 5px;
   cursor: pointer;
