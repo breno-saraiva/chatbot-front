@@ -1,7 +1,6 @@
 const chatMessages = document.getElementById("chat-messages");
 const userInput = document.getElementById("user-input");
 const sendBtn = document.getElementById("send-btn");
-// debugger;
 
 function addMessage(content, sender) {
   const messageElement = document.createElement("div");
